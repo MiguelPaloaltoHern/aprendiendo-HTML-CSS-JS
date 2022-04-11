@@ -1,0 +1,112 @@
+<!--**HTML es un lenguahe de marcado que se utiliza en la gran mayoria de sutios web**-->
+<!--**HTML se compone por etiquetas que se escriben entre sombotos de mayor y menor(ejemplo = <html></html>***-->
+
+<!DOCTYPE html>     <!--**indicador de que utilizaremos html --El comienzo del Script---- **-->
+<html lang="en">   <!--***Todas las etiquetas y codigo estaran detro de estas etiquetas de html****-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>     <!--***Va dentro de la etiqueta <head> y cambia el nombre de la pestaña de nuestra página****-->
+</head>         <!--****Sirve para modificar fuera del cuerpo del codigo***-->
+<body>          <!--****El cuerpo del codigo, dentro irá todo lo que llevara la página***-->
+    
+    <h1>Titulo 1</h1>       <!--****Nos permite escribir titulo 1, dentro del body***-->
+
+    <!--***Exiten 6 tipos de titulos <h2>, <h3>, <h4>, <h5>, <h6>***-->
+
+        <p>parrafo</p>      <!--***Etiqueta que sirve para hacer un parrafo****-->
+
+        <hr>    <!--***Comando para realizar el salto de linea****-->
+
+        <!--*******-->  <!--****Sirve para reallizar comentarios en html***-->
+
+        <blockquote></blockquote>       <!--***se utiliza para crear una cita (frase o autor)****-->
+
+        <code></code>       <!--****para agregar codigo si se llega a requerir***-->
+
+        <em></em> <i></i>     <!--****Letra cursiva o enfasis, italic***-->
+
+        <pre></pre>     <!--****Preformateado, que tenga otro formato dentro de nuestro sitio**-->
+
+        <s></s>     <!--****Texto tachado  se decia algo y ahora es contrario o una broma***-->
+
+        <small></small>     <!--***Texto pequeño ****-->
+
+        <strong></strong>  <b></b>       <!--****muestra texto en negrita***-->
+
+        <u></u>     <!--****Subraya texto***-->
+
+        <div></div>     <!--***funciona como si se estuvuera utilizando un <br> ya que salta la linea al escribir un nuevo <div>****-->
+
+        <img src="Direccion de la imagen" alt="nombre que aparece en caso de no cargar">   <!--***Agrega una imagne***-->
+
+        <a href="direccion completa del sitio al que se dirige"></a>   <!--***Manda al sitio que se agregue****-->
+
+        <ul></ul>  <!--***Lista desordenada****-->
+        <ol></ol>  <!--***Lista ordenada****-->
+        <li></li>  <!--***Elementos de la lista****--> 
+
+    <!--*********************************************************************************************************************************-->
+                                            <!--***FORMULARIOS EN HTML****-->
+    <!--*********************************************************************************************************************************-->
+
+            <form action="">  <!--****Inicio del formulario***-->
+
+                <input type="number">       <!--***Crea el ingreso de numeros****-->
+                <input type="password">     <!--***Crea el cuadro de contraseña****-->
+                <input type="text">         <!--***Crea cuadro de texto****-->
+                <input type="submit">       <!--***Crea boton de entrega****-->
+
+                <textarea name="" id="" cols="30" rows="10"></textarea>        <!--***Se crea un area para escibir****-->
+                <button>Aceptar</button>       <!--***Se crea el boton con el valor de aceptar****-->
+                                        <!--***En caso de submit se añade el value --- <input tyoe = "submit" value = "Aceptar" /> ----****-->
+
+                <select name="" id="">  <!--***Menú de Opciones****-->
+                    <option value="goku">goku</option>                  <!--***opciones****-->
+                    <option value="vegeta">vegeta</option>              <!--***opciones****-->
+                </select>
+
+                <label for=""></label>      <!--***Etiqueta del campo que se llenara****-->
+                <input type="number" placeholder="escribir tu numero">      <!--****ejemplo de que se escribe con letras gris dentro del campo***-->
+
+                <fieldset></fieldset>   <!--****Sirve para agrupar campos***-->
+
+                <legend></legend>   <!--***Para poner titulo o nombre a la agrupacion de campos****-->
+
+            </form>         <!--***Fin del formulario****-->
+
+    <!--*********************************************************************************************************************************-->
+                                            <!--***TABLAS EN HTML****-->
+    <!--*********************************************************************************************************************************-->
+            
+
+            <table>     <!--**Inicio de la Tabla**-->
+        <!--*****************************Encabezado de la tabla***********************-->        
+                <thead>
+                    <tr>
+                        <th>Mes</th>
+                        <th>Ahorros</th>
+                    </tr>
+                </thead>
+        <!--*******************Cuerpo o contenido de la tabla***********************-->
+                <tbody>
+                    <tr>
+                        <td>Enero</td>
+                        <td>1000$</td>
+                    </tr>
+                    <tr>
+                        <td>Febrero</td>
+                        <td>500$</td>
+                    </tr>
+                </tbody>
+        <!--*****************************Pie de la tabla***********************-->        
+                <tfoot>
+                    <tr>
+                        <td>Suma Total</td>
+                        <td>1500$</td>
+                    </tr>
+                </tfoot>
+            </table>    <!--**Fin de Tabla**-->
+</body>
+</html>
