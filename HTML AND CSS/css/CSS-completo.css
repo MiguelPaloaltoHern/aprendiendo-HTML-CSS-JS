@@ -1,0 +1,68 @@
+/**CSS funciona en conjunto con HTML***/
+/**HTML puede existir por si solo pero CSS necesita de codigo HTML para funcionar**/
+/**Cascading Style Sheets ---> Cascadas de hojas de estilo**/
+
+/**Para llamar al css es recomendable hacerlo desde dentro del <head></head>**/
+/**para el llamado es: <link rel= "stylesheet" href = "nombre del archivo.css" type= "text/css" />**/
+
+
+/**los sselectores son solo para html para seleccionar alguna etiqueta se debe elegir el selector por ejemplo:**/
+body{
+    background-color: #fffD; /**Los colores se manejan en hexadecimal**/
+}
+body{
+    background-color: #eeeeee; /**Color de fondo**/
+    color: #ff0000;     /**Color de la letra**/
+}
+
+/**********Selectores id y Class***************/
+
+/**id = nos va a ayudar cuando queremos entregarle un identificador unico a un elemeto de html**/
+/**class = nos van a servir cuando queremos hacer una composición de estilos sobre un elemeto de HTML o cuando queremos compartir el estilo con varios elementos**/
+
+/**ejemlos de agregado en html**/
+/**<p id="parrafo"/>**/
+/**<p class="parrafo"/>**/
+/**ejemplo de llamado en css**/
+
+#parrafo{} /**llamado del id**/
+
+.parrafo{} /**Llamado de class**/
+
+/**Todas las etiquetas de HTML son consideradas cajas**/
+
+.ejemplo-etiquetas{
+
+    /*************************************************************************************************************************/
+                    /************Separación externa e interna***************/
+    /*************************************************************************************************************************/
+
+    margin: 8px; /**crea un espacio entre la caja superior, inferior, de lado derecho e izquierdo**/
+    padding: 3px; /**Similar al margin con la diferencia que margin es alrededor de la caja y padding dentro de la caja**/
+
+    border-style: groove;  /**Marca el borde de la caja**/
+    /**TIPOS**/
+    /**solid: Linea gruesa**/
+    /**dashed: linea punteada**/
+    /**dotted: linea de puntos per mas corto**/
+    /**double: lineas dobles**/
+    /**groove: borde plano**/
+    /**ridge: como el plano pero invertido**/
+    /**inset: efecto de borde hundido**/
+    /**outset: efecto contrario de inset**/
+    /**hidden: oculto**/
+    border-width: 1px;  /**tamaño en pixeles del borde**/
+    border-color: #ff0000;  /**color del borde**/
+    border-radius: 50%;     /**Crea bordes redondos**/
+
+    height: 1px; /**Altura de la caja**/
+    width: 1px; /**Ancho de la caja**/
+
+    text-align: center; /**alineacion de texto center, right, left, justify, etc.**/
+    text-decoration: double; /**Decoración none, underline(subrayada) alinear linea arriba, abajo en el centro **/
+    text-transform: lowercase; /**uppercase (mayuscula), lowercase (minuscula), capitalize (capitalizado)**/
+    text-indent: 5px;  /**Texto primera linea**/
+    letter-spacing: 1px;  /**separa las letras**/
+    
+
+}
