@@ -63,6 +63,12 @@ body{
     text-transform: lowercase; /**uppercase (mayuscula), lowercase (minuscula), capitalize (capitalizado)**/
     text-indent: 5px;  /**Texto primera linea**/
     letter-spacing: 1px;  /**separa las letras**/
-    
+    line-height: 2px; /**Separación de altura**/
+    word-spacing: 1px; /**hace un espacio entre cada una de las palabras**/
+    text-shadow: 5px 2px 2px rgba(0, 0, 0, 3); /**indica una sombra a las letras**/
+    /**primer valor: cuanto se desliza hacia la derecha**/
+    /**segundo valor: cuantos hacia abajo**/
+    /**Tercer valor: para el difuminado**/
+    /**agregamos color --> rgba(0, 0, 0, 3) <-- primero dato: rojo, segundo: verde, tercero: azul, cuarto: opacidad**/
 
 }
